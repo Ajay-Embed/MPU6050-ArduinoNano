@@ -1,0 +1,20 @@
+In this very short project, I have used a MPU6050 for controlling 4 LED’s on the breadboard. The gyroscope is programmed to detect the tilt in the breadboard and then turn on the respective tilted LED.
+
+For the connections.
+
+LED’s :-
+const int frontLed = 3;
+const int bottomLed = 5;
+const int rightLed = 6;
+const int leftLed = 9;
+
+And for the MPU6050,
+The MPU6050 must be connected to ground and 5V+, after that connect SDA to A4 (analog 4), SCL to A5(analog 5).
+
+ 
+
+You are done with the connections now.
+
+Before uploading the code you would require to download 2 libraries.
+1). https://www.i2cdevlib.com/usage
+2). https://playground.arduino.cc/Main/MPU-6050
